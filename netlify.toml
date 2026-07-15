@@ -1,7 +1,8 @@
 [build]
   base = "frontend"
-  command = "npm ci && npm run build"
+  command = "npm ci --no-audit --no-fund && npm run build"
   publish = "frontend/dist"
 
 [build.environment]
   NODE_VERSION = "20"
+  NPM_FLAGS = "--no-audit --no-fund"
