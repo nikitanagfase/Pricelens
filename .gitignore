@@ -1,0 +1,24 @@
+# Secrets
+.env
+.env.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
+
+# Database
+*.db
+*.sqlite3
+pricelens.db
+
+# IDE
+.vscode/backend/.env 
+backend/__pycache__/ 
+backend/*.pyc 
+backend/*.db 
+frontend/node_modules/ 
+frontend/dist/ 
+frontend/.env 
